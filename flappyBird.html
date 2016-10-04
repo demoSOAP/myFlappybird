@@ -135,11 +135,12 @@
       if (b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2) {
 		  //alert("loser");
 		  console.log("flap");
-		  return false;
+		  return false;   
 		  
 		  
 	  }
 		  alert("loser");
+		  window.location.reload(1);
       return true;
     }
 
@@ -166,6 +167,7 @@ function collision1($animate1, $animate2) {
 	  }
 		console.log("flap1")
 		  alert("loser");
+		window.location.reload(1);
       return true;
     }
 	
